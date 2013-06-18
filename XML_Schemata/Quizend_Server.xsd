@@ -3,9 +3,9 @@
 
 <element name="toplist">
   <complexType>
-		<sequence>
-			<element name="user" minOccurs="5" maxOccurs="5">
-				<complexType>
+	<sequence>
+	  <element name="user" minOccurs="5" maxOccurs="5">
+		<complexType>
           <simpleContent>
             <extension base="string">
               <attribute name="place" type="int" />
@@ -18,4 +18,3 @@
   </complexType>
 </element>
 </schema>
-       
