@@ -3,9 +3,9 @@
 
 <element name="quizlist">
   <complexType>
-		<sequence>
-			<element name="quiz" type="string" minOccurs="1"/>
-		</sequence>
-	</complexType>
+	<sequence>
+		<element name="quiz" type="string" minOccurs="1"/>
+	</sequence>
+  </complexType>
 </element>
 </schema>
