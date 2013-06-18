@@ -18,19 +18,31 @@ Kommunikation zwischen Client und Server:
 LogIn:
 
 -   >Benutzername + Passwort
-    <Liste der Quizze(samt Informationen zum jeweiligen Quiz) Benutzerinformationen(Benutzernamen, Profilbild, Punkte, Mitgleid seit, zuletzt gespieltes Quiz)
+    
+    <Liste der Quizze(samt Informationen zum jeweiligen Quiz) 
+    Benutzerinformationen(Benutzernamen, Profilbild, Punkte, Mitgleid seit, zuletzt gespieltes Quiz)
+
 -   Informationen zum Quiz: Name, Beschreibung,Anzahl evtl wartende Teilnehmer, Schwierigkeitsgrad, Bewertung, Themengebiet, ggf Autor, Anzahl der Fragen
+
 -   Quizbeitritt:
 -   <wartende Teilnehmer(Basisinfo, Benutzername, Profilbild, Punkte), Chat,
+    
     >Chatnachrichten
+
 -   Quizanfang:
 -   <Frage + Antwortmöglichkeiten(richtige Antwort),Joker, Medien zu Frage (Bild, Ton)
+    
     >gewähle Antwort(ob richtig oder Falsch), Zeit, evtl benutzte Joker
+    
     <boolean info, ob Mitspieler geantwortet haben
+
 -   Quizende:
 -   <Rangliste nach gewonnenen Punkten
 
-Quzstaffelung nach Schwierigkeit, Ein Quiz besteht aus 20 Fragen die aus einem Fragenpool gewählt werden, deren Antwortmöglichkeiten eventuell wieder aus einem Antwortpool gewählt werden.
+
+Quzstaffelung nach Schwierigkeit, 
+Ein Quiz besteht aus 20 Fragen die aus einem Fragenpool gewählt werden, 
+deren Antwortmöglichkeiten eventuell wieder aus einem Antwortpool gewählt werden.
 
 Ressourcen: Quizliste bestehend aus Quizzen bestehend aus Bewertung und Fragen bestehend aus Antworten Benutzerliste bestehend aus Benutzern
 
