@@ -6,9 +6,15 @@
     <sequence>
       <element name="rightanswer" type="boolean" minOccurs="1" maxOccurs="1"/>
       <element name="usedjokers" minOccurs="0" maxOccurs="3">
-       <simpleType>
-       <restriction base="string">
-       <enumeration value="50/50"></enumeration>
-       <enumeration value="Hinweis"></enumeration>
-       <enumeration value="Frage beantworten"></enumeration>
-       </restriction>
+        <simpleType>
+      		<restriction base="string">
+      			<enumeration value="50/50"></enumeration>
+      			<enumeration value="Hinweis"></enumeration>
+      			<enumeration value="Frage beantworten"></enumeration>
+      		</restriction>
+      	</simpleType>
+      </element>
+    </sequence>
+  </complexType>
+</element>
+</schema>
