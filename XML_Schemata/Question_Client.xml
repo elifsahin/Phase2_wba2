@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+<element name="answer">
+  <complexType>
+    <sequence>
+      <element name="rightanswer" type="boolean" minOccurs="1" maxOccurs="1"/>
+      <element name="usedjokers" minOccurs="0" maxOccurs="3">
+       <simpleType>
+       <restriction base="string">
+       <enumeration value="50/50"></enumeration>
+       <enumeration value="Hinweis"></enumeration>
+       <enumeration value="Frage beantworten"></enumeration>
+       </restriction>
