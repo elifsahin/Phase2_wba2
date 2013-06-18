@@ -1,5 +1,4 @@
 Phase2_wba2 Ideenfindung
-===
 
 Verteiltes Quiz Über einen Client werden die Fragen bei allen Teilnehmer gleichzeitig angegeben, diese werden duch Publish Subscribe verteilt. Anmeldung zum Quiz sowie die Beantwortung der Fragen erfolgen durch REST.
 Die Frage sind vorgefertigt auf einem Server.Nutzer können selbst ein Quiz erstellen und hochladen.
@@ -10,8 +9,8 @@ Joker werden mit gesammelten Punkten bezahlt Joker: (50/50, Hint, richtige Lösu
 
 Informationen die übertragen werden müssen:
 
-    Informationen über Nutzer: Bentzernamen, Mitglied seit, beantwortete Fragen, letztes gespieltes Quiz
-    Informationsänderung bei Fragen: Zeit, Antworten der Mitspieler, gewonnene Punkte, benutzte Joker
+   . Informationen über Nutzer: Bentzernamen, Mitglied seit, beantwortete Fragen, letztes gespieltes Quiz
+   . Informationsänderung bei Fragen: Zeit, Antworten der Mitspieler, gewonnene Punkte, benutzte Joker
 
 Kommunikation zwischen Client und Server:
 LogIn:
