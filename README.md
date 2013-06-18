@@ -9,8 +9,8 @@ Joker werden mit gesammelten Punkten bezahlt Joker: (50/50, Hint, richtige Lösu
 
 Informationen die übertragen werden müssen:
 
-   . Informationen über Nutzer: Bentzernamen, Mitglied seit, beantwortete Fragen, letztes gespieltes Quiz
-   . Informationsänderung bei Fragen: Zeit, Antworten der Mitspieler, gewonnene Punkte, benutzte Joker
+   -Informationen über Nutzer: Bentzernamen, Mitglied seit, beantwortete Fragen, letztes gespieltes Quiz
+   -Informationsänderung bei Fragen: Zeit, Antworten der Mitspieler, gewonnene Punkte, benutzte Joker
 
 Kommunikation zwischen Client und Server:
 LogIn:
