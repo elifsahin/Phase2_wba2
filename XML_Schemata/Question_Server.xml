@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+<element name="questions">
+  <complexType>
+    <sequence>
+      <element name="question" type="string" minOccurs="1" maxOccurs="1"/>
+      <element name="rightanswer" type="string" minOccurs="1" maxOccurs="1"/>
+      <element name="falseanswer" type="string" minOccurs="3" maxOccurs="3"/>
+      <element name="picturemedia" type="base64Binary" minOccurs="0" maxOccurs="1"/>
+      <element name="audiomedia" type="string" minOccurs="0" maxOccurs="1"/>
+    </sequence>
+  </complexType>
+</element>
+</schema>
