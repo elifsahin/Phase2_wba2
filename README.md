@@ -1,4 +1,4 @@
-Ordner "Phase 2" bitte gucken ist aktuell
+Ordner "Phase 2" bitte gucken ist aktuell und in Readme ist die Projektidee beschrieben
 
 
 Idee für Phase 2
