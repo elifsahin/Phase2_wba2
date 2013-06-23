@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userinformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LogIn_Client.xsd">
+  <username>username</username>
+  <password>password</password>
+</userinformation>
