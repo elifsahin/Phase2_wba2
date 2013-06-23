@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+<element name="homeview">
+  <complexType>
+    <sequence>
+      <element name="quizlist" type="string" minOccurs="1" maxOccurs="1"/>
+      <element name="userinfo" type="string" minOccurs="1" maxOccurs="1"/>
+    </sequence>
+  </complexType>
+</element>
+</schema>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+<element name="listofparticipants">
+  <complexType>
+    <sequence>
+      <element name="username" type="string" minOccurs="5" maxOccurs="10"/>
+    </sequence>
+  </complexType>
+</element>
+</schema>

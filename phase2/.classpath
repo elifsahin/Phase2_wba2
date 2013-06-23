@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/grizzly-servlet-webserver-1.9.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/jackson-core-asl-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/JAXB2_20120218 - Kopie.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/jersey-client-1.1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/jersey-core-1.1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/jersey-json-1.1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/jersey-server-1.1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/jettison-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Toshiba/Desktop/FH ELIF/wbaII/phase2/jars/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

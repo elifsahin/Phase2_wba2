@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+<element name="toplist">
+  <complexType>
+	<sequence>
+	  <element name="user" minOccurs="5" maxOccurs="5">
+		<complexType>
+          <simpleContent>
+            <extension base="string">
+              <attribute name="place" type="int" />
+              <attribute name="points" type="int" />
+            </extension>
+          </simpleContent>
+        </complexType>
+      </element>
+    </sequence>
+  </complexType>
+</element>
+</schema>

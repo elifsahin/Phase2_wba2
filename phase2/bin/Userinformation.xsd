@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="Userinformation">
+	<complexType>
+	  <sequence>
+		<element name="username" type="string" minOccurs="1" maxOccurs="1"/>
+		<element name="password" type="string" minOccurs="1" maxOccurs="1"/>
+		<element name="profilepic" type="base64Binary" minOccurs="0" maxOccurs="1"/>
+		<element name="realforename" type="string" minOccurs="0" maxOccurs="1"/>
+		<element name="reallastname" type="string" minOccurs="0" maxOccurs="1"/>
+		<element name="website" type="string" minOccurs="0" maxOccurs="1"/>
+		<element name="detailinfo" type="string" minOccurs="0" maxOccurs="1"/>
+	  </sequence>
+	</complexType>
+  </element>
+</schema>

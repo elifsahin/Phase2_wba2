@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+
+<element name="userinformation">
+  <complexType>
+    <sequence>
+      <element name="username" type="string" minOccurs="1" maxOccurs="1"/>
+      <element name="password" type="string" minOccurs="1" maxOccurs="1"/>
+    </sequence>
+  </complexType>
+</element>
+</schema>
