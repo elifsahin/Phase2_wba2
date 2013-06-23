@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<homeview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LogIn_Server.xsd">
+  <quizlist>quizlist</quizlist>
+  <userinfo>userinfo</userinfo>
+</homeview>
